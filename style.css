@@ -657,7 +657,7 @@ a {
 }
 
 /* hover 이미지 — 텍스트 뒤 배경처럼 배치 */
-.sec7-item2-con > ul > li > img {
+.sec7-item2-con > ul > li > a > img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -669,7 +669,7 @@ a {
 }
 
 /* hover 시 배경처럼 부드럽게 나타남 */
-.sec7-item2-con > ul > li:hover > img {
+.sec7-item2-con > ul > li:hover > a > img {
     opacity: 1;
     transform: translate(-50%, -50%) rotate(5deg);
     filter: brightness(1.1);
